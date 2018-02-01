@@ -14,8 +14,7 @@ public class Algus {
     /**
      * @param args the command line arguments
      */
-    public static void ilmaKommentaar(){
-        int temperatuur=-2;
+    public static void ilmaKommentaar(int temperatuur){
         if(temperatuur>0){
             System.out.println("Sulab");
         }
@@ -26,7 +25,7 @@ public class Algus {
     
     public static void main(String[] args) {
         System.out.println("Hello, Web!");
-        ilmaKommentaar();
+        ilmaKommentaar(3);
     }
     
 }
